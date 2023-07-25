@@ -8,7 +8,7 @@ const ContexProvider = ({children}) => {
       precio: 950,
       stock: 50,
       categoria: "LAPTOPS",
-      img:"../src/assets/Img/1.png",
+      img: "../../1.png",
       id: 1,
       descripcio: 'El MacBook Pro de 13 pulgadas es más capaz que nunca. Sobrealimentado por el chip M2 de última generación, es el portátil profesional más portátil de Apple, con hasta 20 horas de duración de la batería.'
     },
