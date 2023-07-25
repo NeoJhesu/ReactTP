@@ -1,0 +1,164 @@
+.tituloHome {
+    margin: 1% 15% 1% 20%;
+}
+
+    .contenedorcart {
+        margin: auto;
+        max-width: 100%;
+    }
+.filtroDePrecio {display: none;}
+
+.resultadoDeBusqueda{
+        text-align: center;
+        margin: 50px;
+        font-size: 20px;
+
+}
+
+@media (min-width: 700px) {
+
+    .contenedorHome {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    
+    
+    .contenedorcart {
+        width: 80%;
+        display: grid;
+        gap: 2rem;
+        grid-auto-rows: 23rem;
+        grid-template-columns: 1fr;
+        margin: 3%;
+    }
+    
+    .filtroDePrecio {
+        margin: 7% 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    
+    .filtros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        width: 80%;
+        height: 180px;
+        background-color: #EDEFF2;
+        gap: 20px;
+        border-radius: 10%;
+        border: solid aqua 2px;
+    }
+    .filtroNumerico
+                    {
+                    width: 95%;
+                    }
+    .filtro {
+        display: flex;
+        gap: 5px;
+        margin: 5%
+    }
+    
+    }
+    
+@media (min-width: 1050px) {
+
+.contenedorHome {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.contenedorcart {
+    width: 80%;
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: 23rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 3%;
+}
+
+.filtroDePrecio {
+    margin: 3% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: 80%;
+    height: 180px;
+    background-color: #EDEFF2;
+    gap: 20px;
+    border-radius: 10%;
+    border: solid aqua 2px;
+}
+.filtroNumerico
+                {
+                width: 95%;
+                }
+.filtro {
+    display: flex;
+    gap: 5px;
+    margin: 5%
+}
+
+}
+
+@media (min-width: 1450px) {
+
+.contenedorHome {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.contenedorcart {
+    width: 80%;
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: 23rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3%;
+}
+
+.filtroDePrecio {
+    margin: 3% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: 80%;
+    height: 180px;
+    background-color: #EDEFF2;
+    gap: 20px;
+    border-radius: 10%;
+    border: solid aqua 2px;
+}
+.filtroNumerico
+                {
+                width: 95%;
+                }
+.filtro {
+    display: flex;
+    gap: 5px;
+    margin: 5%
+}
+
+}
+

@@ -1,0 +1,110 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    background-color: #ffffff;
+    margin: 10% auto auto auto;
+    border-radius: 15px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 2vh;
+    height: 80%;
+}
+
+.tamañoInput {
+    display: flex;
+    height: 25px;
+    border-radius: 8px;
+    border-color: rgb(59, 228, 169);
+    padding: 1.5%;
+}
+
+.botonFormulario {
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+textarea {
+    resize: none;
+    border-color: rgb(59, 228, 169);
+}
+.mensajeDeEnvio{text-align: center;
+                margin-top: 15PX;}
+@media (max-width: 760px) {
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 70vh;
+        margin-top: 5vw;
+        border-radius: 15px;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 2vh;
+        height: 80%;
+    }
+
+    .tamañoInput {
+        display: flex;
+        height: 25px;
+        border-radius: 8px;
+        border-color: rgb(214, 248, 236);
+    }
+
+
+
+    .botonFormulario {
+        border-radius: 10px;
+        padding: 5%;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 761px) {
+    .formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 70vh;
+        background-color: #ffffff;
+        margin: 10% auto auto auto;
+        margin-top: 5vw;
+        border-radius: 15px;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        width: 80%;
+        height: 80%;
+    }
+
+    .tamañoInput {
+        display: flex;
+        width: 70%;
+        height: 25px;
+    }
+
+    .botonFormulario {
+        display: flex;
+        justify-content: end;
+    }
+}
